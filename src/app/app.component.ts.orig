@@ -4,7 +4,12 @@ import { NavbarComponent } from "./components/navbar/navbar.component";
 
 @Component({
   selector: 'app-root',
+<<<<<<< Updated upstream
+  imports: [RouterOutlet],
+=======
+  standalone: true,
   imports: [RouterOutlet, NavbarComponent],
+>>>>>>> Stashed changes
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
